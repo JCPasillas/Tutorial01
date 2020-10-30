@@ -30,6 +30,16 @@ ABatteryMan::ABatteryMan()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	FollowCamera->bUsePawnControlRotation = false;
 
+	bDead = false;
+
+}
+
+void ABatteryMan::MoveForward(float Axis)
+{
+}
+
+void ABatteryMan::MoveRight(float Axis)
+{
 }
 
 // Called when the game starts or when spawned
